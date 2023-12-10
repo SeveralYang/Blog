@@ -1,0 +1,21 @@
+/* 去掉默认内边距和外边距 */
+body,h1,h2,h3,h4,h5,h6,ul,dl,dd,input,select {
+    margin: 0;
+    padding: 0;
+}
+
+/* 去掉列表中的项目符号 */
+ul{list-style: none;}
+
+/* 去掉默认下划线 */
+a{text-decoration: none;}
+a{color: black;}
+a:hover{color: orange;}
+
+/* 去掉图片加载时的边框 */
+img{border: 0;}
+
+/* h标签继承body中的文字设置 */
+h1,h2,h3,h4,h5,h6{font-size: 100%;font-weight: normal;}
+
+/*引用方法 <link rel="stylesheet" href="CSSPATH"> */
